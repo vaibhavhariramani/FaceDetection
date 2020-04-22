@@ -8,9 +8,9 @@ Face detection is a computer vision technology that helps to locate/visualize hu
 This is the repository linked to the tutorial with the same name. The idea is to introduce people to the concept of object detection in Python using the OpenCV library and how it can be utilized to perform tasks like Facial detection.
 
 ## We’ll cover face detection using :
-Haar Cascade Classifiers using OpenCV
-Histogram of Oriented Gradients using Dlib
-Convolutional Neural Networks using Dlib
+* Haar Cascade Classifiers using OpenCV
+* Histogram of Oriented Gradients using Dlib
+* Convolutional Neural Networks using Dlib
 
 ## Blogpost
 [Face Detection with Python using OpenCV](https://vaibhavhariramani.blogspot.com/2020/04/a-full-guide-to-face-detection.html)
