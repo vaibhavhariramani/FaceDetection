@@ -26,24 +26,12 @@ run ```pip install opencv-contrib-python``` if you need both main and contrib mo
 
 ## Table Of Contents
 
-* [Images as Arrays](#images-as-arrays)
+
 * [Images and OpenCV](#images-and-opencv)
 * [Basic Operations on Images](#basic-operation-on-images)
 * [Face Detection](#face-detection)
 
 
-### Images as Arrays
-
-An image is nothing but a standard Numpy array containing pixels of data points. More the number of pixels in an image, the better is its resolution. You can think of pixels to be tiny blocks of information arranged in form a 2 D grid and the depth of a pixel refers to the colour information present in it. In order to be  processed by a computer, an image needs to be converted into a binary form. The colour of an image can be calculated as follows:
-
-      Number of colours/ shades = 2^bpp where bpp represents bits per pixel.
-
-Naturally, more the number of bits/pixels , more possible colours in the images. The following table shows  the relationship more clearly. 
-
-Let us now have a look at the representation of the different kinds of images:
-1. [Binary Image](https://levelup.gitconnected.com/face-detection-with-python-using-opencv-5c27e521c19a)
-2. [Grayscale image](https://levelup.gitconnected.com/face-detection-with-python-using-opencv-5c27e521c19a#74bf)
-3. [Coloured image](https://levelup.gitconnected.com/face-detection-with-python-using-opencv-5c27e521c19a#396c)
 
 ### Images and OpenCV
 In this section we will perform simple operations on images using OpenCV like opening images, drawing simple shapes on images and interacting with images through callbacks. This is necessary to create a foundation before we move towards the advanced stuff.
